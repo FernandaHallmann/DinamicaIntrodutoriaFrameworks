@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, serif;
+    background-image: url("../imagens/background.png");
+    background-repeat: inherit;
+}
+
+.div-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    color: #a01900;
+}
+
+.logo {
+    height: 100px;
+}
+
+.div-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.div-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    padding: 20px 35px;
+    width: 40%;
+}
+
+.sobre-mim-titulo {
+    align-self: center;
+    color: #a01900;
+}
+
